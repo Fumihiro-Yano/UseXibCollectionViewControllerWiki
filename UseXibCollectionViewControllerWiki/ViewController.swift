@@ -30,7 +30,8 @@ class ViewController: UIViewController {
     internal func onClickpushCollectionViewButton(sender: UIButton){
         let baseCollectionViewController : BaseCollectionViewController = BaseCollectionViewController(nibName: "BaseCollectionViewController", bundle: nil)
         baseCollectionViewController.title = "BaseCollectionView"
-
+        
+//Controllerの呼び出し方で詰まった。きちんと、nibName指定してあげないと呼ばれるわけない・・・
 //        let testCollectionViewController = TestCollectionViewController()
         self.navigationController?.pushViewController(baseCollectionViewController, animated: true)
     }
