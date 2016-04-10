@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		E7B30FE51CB4772E0063056F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30FE41CB4772E0063056F /* AppDelegate.swift */; };
 		E7B30FE71CB4772E0063056F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30FE61CB4772E0063056F /* ViewController.swift */; };
-		E7B30FEA1CB4772E0063056F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B30FE81CB4772E0063056F /* Main.storyboard */; };
 		E7B30FEC1CB4772E0063056F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B30FEB1CB4772E0063056F /* Assets.xcassets */; };
 		E7B30FEF1CB4772E0063056F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B30FED1CB4772E0063056F /* LaunchScreen.storyboard */; };
 		E7B30FFA1CB4772E0063056F /* UseXibCollectionViewControllerWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30FF91CB4772E0063056F /* UseXibCollectionViewControllerWikiTests.swift */; };
 		E7B310051CB4772E0063056F /* UseXibCollectionViewControllerWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B310041CB4772E0063056F /* UseXibCollectionViewControllerWikiUITests.swift */; };
+		E7B310131CB478200063056F /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B310121CB478200063056F /* BaseCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B310151CB478990063056F /* BaseCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B310141CB478990063056F /* BaseCollectionViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		E7B310171CB479910063056F /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B310161CB479910063056F /* BaseCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B310191CB479E70063056F /* BaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B310181CB479E70063056F /* BaseCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		E7B3101E1CBA9F620063056F /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7B3101D1CBA9F620063056F /* sample.jpg */; settings = {ASSET_TAGS = (); }; };
+		E7B310201CBAA11B0063056F /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B3101F1CBAA11B0063056F /* TestCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 		E7B30FE11CB4772E0063056F /* UseXibCollectionViewControllerWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseXibCollectionViewControllerWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B30FE41CB4772E0063056F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B30FE61CB4772E0063056F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7B30FE91CB4772E0063056F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7B30FEB1CB4772E0063056F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B30FEE1CB4772E0063056F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B30FF01CB4772E0063056F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		E7B310001CB4772E0063056F /* UseXibCollectionViewControllerWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UseXibCollectionViewControllerWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B310041CB4772E0063056F /* UseXibCollectionViewControllerWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseXibCollectionViewControllerWikiUITests.swift; sourceTree = "<group>"; };
 		E7B310061CB4772E0063056F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B310121CB478200063056F /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		E7B310141CB478990063056F /* BaseCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCollectionViewController.xib; sourceTree = "<group>"; };
+		E7B310161CB479910063056F /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		E7B310181CB479E70063056F /* BaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		E7B3101D1CBA9F620063056F /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		E7B3101F1CBAA11B0063056F /* TestCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		E7B30FD81CB4772E0063056F = {
 			isa = PBXGroup;
 			children = (
+				E7B3101A1CB51F010063056F /* images */,
 				E7B30FE31CB4772E0063056F /* UseXibCollectionViewControllerWiki */,
 				E7B30FF81CB4772E0063056F /* UseXibCollectionViewControllerWikiTests */,
 				E7B310031CB4772E0063056F /* UseXibCollectionViewControllerWikiUITests */,
@@ -98,8 +109,12 @@
 			isa = PBXGroup;
 			children = (
 				E7B30FE41CB4772E0063056F /* AppDelegate.swift */,
+				E7B3101F1CBAA11B0063056F /* TestCollectionViewController.swift */,
 				E7B30FE61CB4772E0063056F /* ViewController.swift */,
-				E7B30FE81CB4772E0063056F /* Main.storyboard */,
+				E7B310121CB478200063056F /* BaseCollectionViewController.swift */,
+				E7B310161CB479910063056F /* BaseCollectionViewCell.swift */,
+				E7B310181CB479E70063056F /* BaseCollectionViewCell.xib */,
+				E7B310141CB478990063056F /* BaseCollectionViewController.xib */,
 				E7B30FEB1CB4772E0063056F /* Assets.xcassets */,
 				E7B30FED1CB4772E0063056F /* LaunchScreen.storyboard */,
 				E7B30FF01CB4772E0063056F /* Info.plist */,
@@ -123,6 +138,15 @@
 				E7B310061CB4772E0063056F /* Info.plist */,
 			);
 			path = UseXibCollectionViewControllerWikiUITests;
+			sourceTree = "<group>";
+		};
+		E7B3101A1CB51F010063056F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3101D1CBA9F620063056F /* sample.jpg */,
+			);
+			name = images;
+			path = UseXibCollectionViewControllerWiki;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B30FEF1CB4772E0063056F /* LaunchScreen.storyboard in Resources */,
+				E7B310191CB479E70063056F /* BaseCollectionViewCell.xib in Resources */,
 				E7B30FEC1CB4772E0063056F /* Assets.xcassets in Resources */,
-				E7B30FEA1CB4772E0063056F /* Main.storyboard in Resources */,
+				E7B310151CB478990063056F /* BaseCollectionViewController.xib in Resources */,
+				E7B3101E1CBA9F620063056F /* sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B310131CB478200063056F /* BaseCollectionViewController.swift in Sources */,
+				E7B310171CB479910063056F /* BaseCollectionViewCell.swift in Sources */,
 				E7B30FE71CB4772E0063056F /* ViewController.swift in Sources */,
+				E7B310201CBAA11B0063056F /* TestCollectionViewController.swift in Sources */,
 				E7B30FE51CB4772E0063056F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7B30FE81CB4772E0063056F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7B30FE91CB4772E0063056F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E7B30FED1CB4772E0063056F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -401,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UseXibCollectionViewControllerWiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = glooob.UseXibCollectionViewControllerWiki;
@@ -412,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UseXibCollectionViewControllerWiki/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = glooob.UseXibCollectionViewControllerWiki;
@@ -446,6 +469,7 @@
 		E7B310101CB4772E0063056F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				INFOPLIST_FILE = UseXibCollectionViewControllerWikiUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = glooob.UseXibCollectionViewControllerWikiUITests;
